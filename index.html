@@ -3,103 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portafolio de Jafet Quiroga Yucra. Desarrollador web con enfoque en HTML, CSS, JavaScript, React y Node.js. Interesado en accesibilidad, SEO y desarrollo móvil con Swift.">
+    <meta name="description" content="Desarrollador web con experiencia en HTML, CSS, JavaScript, React y Node.js. Interesado en accesibilidad, SEO y desarrollo móvil con Swift.">
+    <meta property="og:title" content="Portafolio de Jafet Quiroga (Desarrollador Web)">
+    <meta property="og:description" content="Desarrollador web con HTML, CSS, JavaScript, React y Node.js. Interesado en accesibilidad, SEO y desarrollo móvil con Swift.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="jafet-quiroga.jpg">
     <title>Portafolio de Jafet Quiroga (Desarrollador Web)</title>
+    <link rel="canonical" href="https://jafoyelich.github.io/curriculum/" />
     <link rel="stylesheet" href="styles.css">
     <meta name="color-scheme" content="light only">
-  <style>
-    .skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
-    .skip-link:focus { position: static; width: auto; height: auto; padding: .5rem 1rem; outline: 2px solid; }
-  </style>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Jafet Quiroga Yucra",
-    "jobTitle": "Desarrollador web",
-    "url": "./",
-    "image": "jafet-quiroga.jpg"
-  }
-  </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "Jafet Quiroga Yucra",
+            "jobTitle": "Desarrollador web",
+            "url": "https://jafoyelich.github.io/curriculum/",
+            "sameAs": ["https://github.com/jafoyelich"],
+            "image": "jafet-quiroga.jpg"
+        }
+    </script>
 </head>
 <body>
-  <a href="#contenido" class="skip-link">Saltar al contenido</a>
-  <nav aria-label="Navegación principal">
-    <ul>
-      <li><a href="#sobre-mi">Sobre mí</a></li>
-      <li><a href="#formacion">Formación</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-    </ul>
-  </nav>
-  <main id="contenido">
+<a href="#contenido" class="skip-link">Saltar al contenido</a>
+<header>
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="contenido">
     <div class="container">
-      <article class="card">
-        <header>
-          <img class="avatar" src="jafet-quiroga.jpg" alt="Foto de Jafet Quiroga Yucra" loading="lazy">
-          <div>
-            <h1>Jafet Quiroga Yucra</h1>
-            <p class="subtitle">Desarrollador web • Tecnología • Aprendiz de Swift</p>
-          </div>
-        </header>
+        <aside aria-labelledby="aside-titulo" class="sidebar">
+            <h2 id="aside-titulo">Más sobre mí</h2>
+            <ul>
+                <li><a href="https://github.com/jafoyelich" rel="me noopener">GitHub</a></li>
+                <li><a href="mailto:jafetquiroga@gmail.com">Contacto</a></li>
+            </ul>
+        </aside>
+        <article class="card">
+            <header>
+                <img class="avatar" src="jafet-quiroga.jpg" alt="Foto de Jafet Quiroga Yucra" loading="lazy" width="112" height="112">
+                <div>
+                    <h1>Jafet Quiroga Yucra</h1>
+                    <p class="subtitle">Desarrollador web • Tecnología • Aprendiz de Swift</p>
+                </div>
+            </header>
 
-        <section id="sobre-mi">
-          <h2>Sobre mí</h2>
-          <p>Soy un desarrollador web apasionado por la tecnología en general. Mis fuertes actuales son los sistemas operativos y los lenguajes de programación para desarrollo web. Espero en algún momento volverme desarrollador móvil especializado en el lenguaje Swift.</p>
-        </section>
+            <section id="sobre-mi">
+                <h2>Sobre mí</h2>
+                <p>Soy un desarrollador web apasionado por la tecnología en general. Mis fuertes actuales son los sistemas operativos y los lenguajes de programación para desarrollo web. Espero en algún momento volverme desarrollador móvil especializado en el lenguaje Swift.</p>
+            </section>
 
-        <section id="formacion">
-          <h2>Formación Académica</h2>
-          <ul>
-              <li>Técnico superior en Sistemas Informáticos - Tecnológico Boliviano Alemán (2024)</li>
-              <li>Curso de Desarrollo Web - Udemy (2023)</li>
-              <li>Curso de Desarrollo de sistemas POS - Udemy (2024)</li>
-          </ul>
-        </section>
+            <section id="formacion">
+                <h2>Formación Académica</h2>
+                <ul>
+                    <li>Técnico superior en Sistemas Informáticos - Tecnológico Boliviano Alemán (2024)</li>
+                    <li>Curso de Desarrollo Web - Udemy (2023)</li>
+                    <li>Curso de Desarrollo de sistemas POS - Udemy (2024)</li>
+                </ul>
+            </section>
 
-        <section id="habilidades">
-          <h2>Habilidades</h2>
-          <ul>
-              <li>
-                  HTML5
-                  <img class="skill-icon" src="img/001-html-5.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  CSS
-                  <img class="skill-icon" src="img/002-css-3.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  Terminal y línea de comandos
-                  <img class="skill-icon" src="img/003-terminal.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  JavaScript
-                  <img class="skill-icon" src="img/004-js.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  Diseño responsivo
-                  <img class="skill-icon" src="img/005-responsive.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  React
-                  <img class="skill-icon" src="img/006-react.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  Node.js
-                  <img class="skill-icon" src="img/007-nodejs.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-              <li>
-                  Git y GitHub
-                  <img class="skill-icon" src="img/008-social.png" alt="" loading="lazy" aria-hidden="true">
-                  <img class="skill-icon" src="img/009-github.png" alt="" loading="lazy" aria-hidden="true">
-              </li>
-          </ul>
-        </section>
+            <section id="habilidades">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>
+                        HTML5
+                        <img class="skill-icon" src="img/001-html-5.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        CSS
+                        <img class="skill-icon" src="img/002-css-3.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        Terminal y línea de comandos
+                        <img class="skill-icon" src="img/003-terminal.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        JavaScript
+                        <img class="skill-icon" src="img/004-js.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        Diseño responsivo
+                        <img class="skill-icon" src="img/005-responsive.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        React
+                        <img class="skill-icon" src="img/006-react.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        Node.js
+                        <img class="skill-icon" src="img/007-nodejs.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                    <li>
+                        Git y GitHub
+                        <img class="skill-icon" src="img/008-social.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                        <img class="skill-icon" src="img/009-github.png" alt="" loading="lazy" aria-hidden="true" width="22" height="22">
+                    </li>
+                </ul>
+            </section>
 
-        <footer>
-          © 2025 Jafet Quiroga Yucra
-        </footer>
-      </article>
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <form class="contact-form" action="#" method="post" novalidate>
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" autocomplete="name" required aria-required="true" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Correo electrónico</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required aria-required="true" />
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
+
+        </article>
     </div>
-  </main>
+</main>
+<footer>
+    © 2025 Jafet Quiroga Yucra
+</footer>
 </body>
 </html>
